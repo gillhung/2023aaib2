@@ -1,4 +1,4 @@
-#include <stdio.h>
+# include <stdio.h>
 int isPrime(int n)
 {
     for(int i=2;i<n;i++){
@@ -11,7 +11,7 @@ int main()
     int BOUND=300000,ans=0;
     for(int i=2;i<BOUND;i++){
         if(isPrime(i)){
-            printf("%d",i); /// 印出質數
+            printf("%d ",i); /// 印出質數
             ans++; /// 同時++，多一個質數
         }
     }
